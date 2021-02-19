@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clock{
+    margin: 300px;
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: relative;
+}
+.time{
+    position: absolute;
+}
+.twelve{
+    left:65px;
+    top:-15px;
+}
+.six{
+    bottom: -15px;
+    left:70px;
+}
+.three{
+    right: 2px;
+    top:50px;
+}
+.nine{
+    left:1px;
+    top: 50px;
+}
+.one{
+    right: 29px;
+    top:-3px;
+}
+.eleven{
+    left:29px;
+    top:-5px;
+}
+.two{
+    right: 10px;
+    top:20px;
+}
+.ten{
+    left:10px;
+    top: 20px;
+}
+.four{
+    bottom:15px;
+    right:12px;
+}
+.eight{
+    bottom: 15px;
+    left:12px;
+}
+.five{
+    bottom: -8px;
+    right:40px;
+}
+.seven{
+    bottom:-8px;
+    left: 35px;
+}
+.dot{
+    font-size: 50px;
+    top:-10%;
+    left:45%;
+}
+
